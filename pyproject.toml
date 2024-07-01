@@ -1,0 +1,23 @@
+[project]
+name = "torch-roller"
+version = "0.1.0"
+description = "Roll 2d tensor to 3d and vice versa."
+authors = [
+    {name = "Taeyong Jeon", email = "taeyongjeon24@gmail.com"},
+]
+dependencies = [
+    "torch",
+    "pandas",
+    "numpy<2",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
